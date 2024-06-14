@@ -15,62 +15,67 @@ todos juntos.
 
 // seleccione el ejercicio a ejecutar
 
-let ejercicio = 0;
+/*let ejercicio = 0;
 
 if (ejercicio == 0) {
     ejercicio = prompt(`Bienvenido, ingrese el número de ejercicio que quiere realizar`);
-}
+}*/
 
 // Ejercicios de sintaxis de "for"
-if (ejercicio == 1) {
+/*if (ejercicio == 1) {
     // Descomentar cada bloque y encontrar el error de sintaxis :D
-    /*for(i=0;<10i++){
+    for(let i = 0; i < 10; i++){
+        console.log(`el valor de "i" es: ${i}`);
+    }*/
+    
+       /*for(let i = 0; i < 10; i++){
+        console.log(`el valor de "i" es: ${i}`);
+       }*/
+    
+       /*for(let i = 0; i <10; i++){
         console.log(`el valor de "i" es: ${i}`);
     }
     */
-       /*forar i=0;<10;i++){
+       /*for(let i = 0; i <10; i++){
         console.log(`el valor de "i" es: ${i}`);
     }
     */
-       /*for(var i=0;0<10;i++){
-        console.log(`el valor de "i" es: ${i}`);
-    }
-    */
-       /*for(var i=0;i>10;i++){
-        console.log(`el valor de "i" es: ${i}`);
-    }
-    */
-       /*for(var i=o;i<1o;i++){
+       /*for(let i= 0; i <10; i++){
         consolelog(`el valor de "i" es: ${i}`);
     }
     */
 
-}
 
 // Ejercicios de práctica numérica con bucle for
-if (ejercicio == 2) {
+//if (ejercicio == 2) {
+    //for(let i = 0; i < 10; i++){
+      //  console.log(`el valor de "i" es: ${i}`);
     // Realice un bucle que cuente de 0 al 9
     // En cada iteración del bucle imprimir en consola el número
     // o índice que irá incrementando
     // Utilice bucle "for"
-}
-
+//}
+//}
 // Ejercicios de práctica numérica con bucle for of
-if (ejercicio == 3) {
-    const numeros = [0, 1, 2, 3, 4, 5]
+/*    const numeros = [0, 1, 2, 3, 4, 5];
+    numeros.length
+for(const numero of numeros) {
+    console.log(numero);
+};*/
+    
     // Realice un bucle que recorra el array de numeros
     // y en cada iteración imprira en la consola el valor
     // del número recorrido
     // Utilice bucle "for of"
-}
+
 
 // Ejercicios de práctica de objetos con bucle for of
-if (ejercicio == 4) {
-    const personas = [
+//if (ejercicio == 4) {
+   /* const personas = [ 
         {
-            "nombre": "Max",
-            "apellido": "Power"
-        },
+             "nombre": "Max",
+             "apellido": "Power"
+            },
         {
             "nombre": "Jean",
             "apellido": "Gray"
@@ -80,16 +85,30 @@ if (ejercicio == 4) {
             "apellido": "MacGonagall"
         }
     ];
+    for(const persona of personas)
+        console.log(persona);
     // Realice un bucle que recorra el array de objetos
     // personas.
     // En cada iteración imprimir el nombre de la persona.
     // Utilice bucle "for of"
 
-}
+//}*/
 
 // Ejercicios de práctica de objetos con bucle for of
-if (ejercicio == 5) {
+//if (ejercicio == 5) {
+    // const ejercicio = prompt(`ingrese su nombre y su apellido`);
     const personas = [];
+    const nombre = prompt('ingrese su nombre ')[0]; 
+    const apellido = prompt('ingrese su apellido ')[1];
+    const persona = {
+        nombre: nombre,
+        apellido: apellido
+      };
+      personas.push(persona);
+      for (const persona of personas) {
+        console.log(`Nombre: ${persona.nombre}`);
+        console.log(`Apellido: ${persona.apellido}`);
+      }
     // Esta vez el array de personas comenzará vacio.
     // Realice un bucle que en cada iteración solicite
     // al usuario con prompt un nombre y apellido.
@@ -98,4 +117,4 @@ if (ejercicio == 5) {
     // El bucle deberá ejecutarse por 2 iteraciones.
     // Al terminarse el bucle (luego de ejecutarse todas las iteraciones)
     // deberá imprimir en consola el contenido del array "personas"
-}
+//}

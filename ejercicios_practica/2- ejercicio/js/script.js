@@ -18,8 +18,13 @@ Las "keys" o "claves" de cada objeto se deberán llamar:
 
 */
 
-// Tipo agua
+// Tipo agua    
 const titulo_agua = "Tipo Agua"
+const {descripcion, icono, estiloClase} = titulo_agua;
+console.log(descripcion, icono, estiloClase);
+
+const { titulo } = titulo_agua;
+console.log(titulo);
 const descripcion_agua = "Los Pokémon tipo agua se dice que son puro y que suelen adaptarse a cualquier situación o condición climática, ya que el agua puede adoptar cualquier forma en cualquier momento. Por ejemplo, en un vaso adopta una forma, mientras que, en un cubo, adopta otra distinta. Por eso, los Pokémon de tipo agua se sienten a menudo libres en cualquier sitio donde haya agua a su disposición."
 const icono_agua = "./images/water_type.png";
 const estiloClase_agua = "agua"
@@ -41,6 +46,13 @@ const descripcion_electrico = "Los Pokémon de tipo eléctrico tienen hábitats 
 const icono_electrico = "./images/electric_type.png";
 const estiloClase_electrico = "electricidad"
 
+const tipoElectricidad = "Tipo Electricidad"
+const {description, Icono, stilyClase} = titulo_agua;
+console.log(descripcion, icono, estiloClase);
+
+const { type } = titulo_agua;
+console.log(type);
+
 // Alumno: Genere un objeto llamado "tipoElectricidad" con todos los datos del pokemon tipo electricidad
 
 // Tipo normal
@@ -48,6 +60,13 @@ const titulo_normal = "Tipo Normal"
 const descripcion_normal = "Los Pokémon de tipo normal abarcan la mayor cantidad y variedad de movimientos que el resto de tipos. Gran parte de estos son movimientos que no realizan daño o no lo hacen directamente, sino que afectan a las características o estados del Pokémon. Los tipos normal son los más diversos entre los Pokémon, con características variadas, desarrollos y requisitos para las evoluciones diferentes de cada uno, al igual que diferir en las zonas donde se pueden capturar, desde bosques, cuevas, montañas, ciudades, etc."
 const icono_normal = "./images/normal_type.png";
 const estiloClase_normal = "normal"
+
+const tipoNormal = "Tipo Normal"
+const {descrip, thing, stily} = titulo_agua;
+console.log(descripcion, icono, estiloClase);
+
+const { Tipo } = titulo_agua;
+console.log(Tipo);
 
 // Alumno: Genere un objeto llamado "tipoNormal" con todos los datos del pokemon tipo normal
 
@@ -57,7 +76,14 @@ const descripcion_fuego = "Los Pokémon de tipo tipo fuego basan sus ataques, pr
 const icono_fuego = "./images/fire_type.png";
 const estiloClase_fuego = "normal"
 
+const tipoFuego = "Tipo Fuego"
+const {descript, thing1, stilyC} = titulo_agua;
+console.log(descripcion, icono, estiloClase);
+
+const { thing2 } = titulo_agua;
+console.log(thing2);
 
 // Alumno: Genere un objeto llamado "tipoFuego" con todos los datos del pokemon tipo fuego
 
 
+    
